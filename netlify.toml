@@ -1,0 +1,33 @@
+[[redirects]]
+  from = "/buy1"
+  to = "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CSLD8L43WU9Q6"
+  status = 200
+  force = true # COMMENT: ensure that we always redirect
+  headers = {X-From = "Netlify"}
+  signed = "API_SIGNATURE_TOKEN"
+
+
+[[redirects]]
+ from = "/buy3"
+  to = "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BYQFNUD4DYCJN"
+  status = 200
+  force = true # COMMENT: ensure that we always redirect
+  headers = {X-From = "Netlify"}
+  signed = "API_SIGNATURE_TOKEN"
+
+[[redirects]]
+ from = "/buy6"
+  to = "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=EX9AVTP7N3XXA"
+  status = 200
+  force = true # COMMENT: ensure that we always redirect
+  headers = {X-From = "Netlify"}
+  signed = "API_SIGNATURE_TOKEN"
+
+
+[[redirects]]
+ from = "/buy12"
+  to = "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ZAFNNBSBDFDP4"
+  status = 200
+  force = true # COMMENT: ensure that we always redirect
+  headers = {X-From = "Netlify"}
+  signed = "API_SIGNATURE_TOKEN"
